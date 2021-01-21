@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/netflix_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>Netflix Clone</title>
+</head>
+
+<body>
+    <header class="relative text-white w-full h-screen bg-cover bg-no-repeat bg-med lg:bg-large">
+        <div class="flex justify-between">
+            <nav class="flex">
+                <div class="w-32 h-14 bg-netflix bg-cover mr-4"></div>
+                <div class="relative top-4 hidden sm:block">
+                    <a href="#" class="text-base font-bold mr-2">Home</a>
+                    <a href="#" class="text-sm mr-2 hover:text-gray-200">TVShows</a>
+                    <a href="#" class="text-sm mr-2 hover:text-gray-200">Movies</a>
+                    <a href="#" class="text-sm mr-2 hover:text-gray-200">News&Popular</a>
+                    <a href="#" class="text-sm mr-2 hover:text-gray-200">My List</a>
+                </div>
+            </nav>
+
+            <div class="flex">
+                <!--Icons-->
+                <!---->
+                <i class="fas fa-search text-xl mr-4 relative top-4"></i>
+                <!---->
+                <svg class="w-6 h-6 mr-4 relative top-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+            </svg>
+                <!---->
+                <svg class="w-6 h-6 mr-4 relative top-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
+            </svg>
+                <!---->
+                <div class="w-12 h-12 rounded-xl bg-person bg-cover mt-2 mr-2"></div>
+                <!---->
+                <i class="fas fa-caret-down text-2xl mr-2.5 relative top-4"></i>
+
+            </div>
+        </div>
+
+        <section class="absolute top-80 left-4">
+            <div>
+                <div class=" w-80 h-28 bg-snk bg-cover"></div>
+                <p class="my-4 text-xl max-w-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, recusandae. Voluptas cumque numquam provident animi?</p>
+                <div class="flex text-xl">
+                    <div class="bg-white text-black p-2 mr-2 rounded-md cursor-pointer">
+                        <i class="fas fa-play "></i>
+                        <span>Play</span>
+                    </div>
+                    <div class="bg-gray-500 text-xl p-2 rounded-md cursor-pointer">
+                        <i class="fas fa-info-circle"></i>
+                        <span>More Info</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class=" absolute bottom-0 left-0 w-screen h-20 bg-linear"></div>
+    </header>
+
+</body>
+
+</html>
