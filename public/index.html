@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="relative text-white w-full h-screen">
+    <header class="relative text-white w-full h-screen overflow-x-hidden">
         <img class="object-cover h-full w-full" src="/public/images/bg.jpg" alt="">
         <div class="flex justify-between w-full fixed top-0">
             <nav class="flex">
@@ -63,30 +63,64 @@
             </div>
         </section>
 
-        <div class=" absolute bottom-0 left-0 w-screen h-20 bg-linear"></div>
+        <div class=" absolute bottom-0 left-0 w-full h-20 bg-linear"></div>
 
     </header>
     <!---->
     <!---->
-    <section class="text-white bg-black px-12 py-8">
-        <p class="font-semibold pb-4">My List</p>
-        <div class="grid grid-cols-5 gap-1.5">
-            <a href="#"><img src="/public/images/Netflix/1.PNG" alt="" class="rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/2.PNG" alt="" class=" rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/3.PNG" alt="" class=" rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/4.PNG" alt="" class=" rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/5.PNG" alt="" class=" rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/6.PNG" alt="" class=" rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/7.PNG" alt="" class=" rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/8.PNG" alt="" class=" rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/9.PNG" alt="" class=" rounded"></a>
-            <a href="#"><img src="/public/images/Netflix/10.PNG" alt="" class=" rounded"></a>
-        </div>
+    <div class="container-carousel w-full">
+        <section class="text-white bg-black px-12 py-8">
+            <p class="font-semibold pb-4">My List</p>
+            <!-- arrow left -->
+
+            <div class="absolute left-0 left-arrow">
+
+                <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-left"></i></button>
+
+            </div>
 
 
-    </section>
+            <div class="grid grid-cols-5 gap-1.5">
+                <a href="#"><img src="/public/images/Netflix/1.PNG" alt="" class="rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/2.PNG" alt="" class=" rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/3.PNG" alt="" class=" rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/4.PNG" alt="" class=" rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/5.PNG" alt="" class=" rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/6.PNG" alt="" class=" rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/7.PNG" alt="" class=" rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/8.PNG" alt="" class=" rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/9.PNG" alt="" class=" rounded"></a>
+                <a href="#"><img src="/public/images/Netflix/10.PNG" alt="" class="rounded"></a>
+
+            </div>
+            <!-- arrow right -->
+
+            <div class="absolute right-0 right-arrow">
+                <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-right"></i></button>
+
+            </div>
+
+
+
+        </section>
+    </div>
     <!---->
     <!---->
+
+    <script>
+        const carousel = document.querySelectorAll('.container-carousel');
+
+        const left = document.querySelectorAll('.left-arrow');
+        const right = document.querySelectorAll('.right-arrow');
+
+        right.addEventListener("click", () => {
+            carousel.scrollLeft += carousel.offsetWidth;
+        })
+
+        left.addEventListener("click", () => {
+            carousel.scrollLeft -= carousel.offsetWidth;
+        })
+    </script>
 
 </body>
 
