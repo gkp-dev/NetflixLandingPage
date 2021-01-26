@@ -4233,7 +4233,7 @@ video {
 }
 
 .bg-linear {
-  background-image: linear-gradient(360deg, #222222 42.15%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(0deg, #000000 30.49%, rgba(103, 103, 103, 0) 86.24%);
 }
 
 .bg-mini {
@@ -34883,7 +34883,7 @@ video {
   }
 
   .sm\:bg-linear {
-    background-image: linear-gradient(360deg, #222222 42.15%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(0deg, #000000 30.49%, rgba(103, 103, 103, 0) 86.24%);
   }
 
   .sm\:bg-mini {
@@ -65455,7 +65455,7 @@ video {
   }
 
   .md\:bg-linear {
-    background-image: linear-gradient(360deg, #222222 42.15%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(0deg, #000000 30.49%, rgba(103, 103, 103, 0) 86.24%);
   }
 
   .md\:bg-mini {
@@ -96027,7 +96027,7 @@ video {
   }
 
   .lg\:bg-linear {
-    background-image: linear-gradient(360deg, #222222 42.15%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(0deg, #000000 30.49%, rgba(103, 103, 103, 0) 86.24%);
   }
 
   .lg\:bg-mini {
@@ -126599,7 +126599,7 @@ video {
   }
 
   .xl\:bg-linear {
-    background-image: linear-gradient(360deg, #222222 42.15%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(0deg, #000000 30.49%, rgba(103, 103, 103, 0) 86.24%);
   }
 
   .xl\:bg-mini {
@@ -157171,7 +157171,7 @@ video {
   }
 
   .\32xl\:bg-linear {
-    background-image: linear-gradient(360deg, #222222 42.15%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(0deg, #000000 30.49%, rgba(103, 103, 103, 0) 86.24%);
   }
 
   .\32xl\:bg-mini {

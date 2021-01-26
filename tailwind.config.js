@@ -6,7 +6,7 @@ module.exports = {
             backgroundImage: theme => ({
                 "netflix": "url('/public/images/netflix_icon2.png')",
                 "snk": "url('/public/images/title_snk.png')",
-                "linear": "linear-gradient(360deg, #222222 42.15%, rgba(0, 0, 0, 0) 100%)",
+                "linear": "linear-gradient(0deg, #000000 30.49%, rgba(103, 103, 103, 0) 86.24%)",
                 "mini": "url('/public/images/bg-mini.jpg')",
                 "med": "url('/public/images/bg-med.jpg')",
                 "large": "url('/public/images/bg.jpg')",
