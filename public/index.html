@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="tailwind.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <title>Netflix Clone</title>
+    <link rel="stylesheet" href="helper.css">
+
+
 </head>
 
 <body>
     <header class="relative text-white w-full h-screen overflow-x-hidden">
         <img class="object-cover h-full w-full" src="/public/images/bg.jpg" alt="">
-        <div class="flex justify-between w-full fixed top-0">
+        <div class="container-navbar flex justify-between transition duration-200 ease-in w-full z-20 fixed top-0">
+            <!--Nav bar-->
             <nav class="flex">
                 <div class="w-32 h-14 bg-netflix bg-cover mr-4"></div>
                 <div class="relative top-4 hidden sm:block">
@@ -68,59 +72,237 @@
     </header>
     <!---->
     <!---->
-    <div class="container-carousel w-full">
-        <section class="text-white bg-black px-12 py-8">
-            <p class="font-semibold pb-4">My List</p>
+    <!--My List-->
+
+    <section class="text-white bg-black px-12 py-8">
+        <p class="font-semibold pb-4">My List</p>
+
+        <div class="flex items-center relative">
             <!-- arrow left -->
-
-            <div class="absolute left-0 left-arrow">
-
+            <div class="absolute left-0 left-arrow leftbtn1" onClick="leftClick('.swiper1','.leftbtn1')">
                 <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-left"></i></button>
-
             </div>
-
-
-            <div class="grid grid-cols-5 gap-1.5">
-                <a href="#"><img src="/public/images/Netflix/1.PNG" alt="" class="rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/2.PNG" alt="" class=" rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/3.PNG" alt="" class=" rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/4.PNG" alt="" class=" rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/5.PNG" alt="" class=" rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/6.PNG" alt="" class=" rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/7.PNG" alt="" class=" rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/8.PNG" alt="" class=" rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/9.PNG" alt="" class=" rounded"></a>
-                <a href="#"><img src="/public/images/Netflix/10.PNG" alt="" class="rounded"></a>
-
+            <!--Container Carousel-->
+            <div class="container-carousel swiper1 overflow-hidden">
+                <!--Carousel-->
+                <div class="carousel grid grid-cols-2 gap-2 space-x-1.5 ">
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/1.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/2.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/3.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/4.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/5.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/6.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/7.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/8.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/9.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/10.PNG" alt="" class="rounded"></a>
+                    </div>
+                </div>
             </div>
             <!-- arrow right -->
-
-            <div class="absolute right-0 right-arrow">
+            <div class="absolute right-0 right-arrow rightbtn1" onClick="rightClick('.swiper1','.rightbtn1')">
                 <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-right"></i></button>
-
             </div>
+        </div>
 
+        <!---->
+    </section>
 
-
-        </section>
-    </div>
     <!---->
     <!---->
+    <!---->
+    <!---->
+    <!--Tv Shows-->
 
-    <script>
-        const carousel = document.querySelectorAll('.container-carousel');
+    <section class="text-white bg-black px-12 py-8">
+        <p class="font-semibold pb-4">Tv Shows</p>
 
-        const left = document.querySelectorAll('.left-arrow');
-        const right = document.querySelectorAll('.right-arrow');
+        <div class="flex items-center relative">
+            <!-- arrow left -->
+            <div class="absolute left-0 left-arrow leftbtn2" onClick="leftClick('.swiper2','.leftbtn2')">
+                <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-left"></i></button>
+            </div>
+            <!--Container Carousel-->
+            <div class="container-carousel swiper2 overflow-hidden">
+                <!--Carousel-->
+                <div class="carousel grid gap-2 space-x-1.5 ">
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/1.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/2.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/3.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/4.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/5.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/6.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/7.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/8.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/9.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/10.PNG" alt="" class="rounded"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- arrow right -->
+            <div class="absolute right-0 right-arrow rightbtn2" onClick="rightClick('.swiper2','.rightbtn2')">
+                <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
 
-        right.addEventListener("click", () => {
-            carousel.scrollLeft += carousel.offsetWidth;
-        })
+        <!---->
+    </section>
 
-        left.addEventListener("click", () => {
-            carousel.scrollLeft -= carousel.offsetWidth;
-        })
-    </script>
+    <!---->
+    <!---->
+    <!--Trending Now-->
+
+    <section class="text-white bg-black px-12 py-8">
+        <p class="font-semibold pb-4">Trending Nows</p>
+
+        <div class="flex items-center relative">
+            <!-- arrow left -->
+            <div class="absolute left-0 left-arrow leftbtn3" onClick="leftClick('.swiper3','.leftbtn3')">
+                <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-left"></i></button>
+            </div>
+            <!--Container Carousel-->
+            <div class="container-carousel swiper3 overflow-hidden">
+                <!--Carousel-->
+                <div class="carousel grid gap-2 space-x-1.5 ">
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/1.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/2.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/3.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/4.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/5.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/6.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/7.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/8.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/9.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/10.PNG" alt="" class="rounded"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- arrow right -->
+            <div class="absolute right-0 right-arrow rightbtn3" onClick="rightClick('.swiper3','.rightbtn3')">
+                <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+
+        <!---->
+    </section>
+
+    <!---->
+    <!---->
+    <!--Trending Now-->
+
+    <section class="text-white bg-black px-12 py-8">
+        <p class="font-semibold pb-4">Watch again</p>
+
+        <div class="flex items-center relative">
+            <!-- arrow left -->
+            <div class="absolute left-0 left-arrow leftbtn4" onClick="leftClick('.swiper4','.leftbtn4')">
+                <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-left"></i></button>
+            </div>
+            <!--Container Carousel-->
+            <div class="container-carousel swiper4 overflow-hidden">
+                <!--Carousel-->
+                <div class="carousel grid gap-2 space-x-1.5 ">
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/1.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/2.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/3.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/4.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/5.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/6.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/7.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/8.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/9.PNG" alt="" class="rounded"></a>
+                    </div>
+                    <div class="pics">
+                        <a href="#"><img src="/public/images/Netflix/10.PNG" alt="" class="rounded"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- arrow right -->
+            <div class="absolute right-0 right-arrow rightbtn4" onClick="rightClick('.swiper4','.rightbtn4')">
+                <button class="p-4 h-32 hover:bg-black hover:opacity-50 focus:outline-none"><i class="fas fa-angle-right"></i></button>
+            </div>
+        </div>
+
+        <!---->
+    </section>
+
+    <!---->
+    <!---->
+    <script src="carousel.js"></script>
 
 </body>
 
