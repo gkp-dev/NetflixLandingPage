@@ -2,7 +2,7 @@
     "name": "NetflixTailwind",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
         "build-css": "tailwindcss build ./src/tailwind.css -o ./public/tailwind.css"
     },
@@ -11,6 +11,7 @@
     "license": "ISC",
     "dependencies": {
         "autoprefixer": "^10.2.3",
+        "express": "^4.17.1",
         "tailwindcss": "^2.0.2"
     }
 }

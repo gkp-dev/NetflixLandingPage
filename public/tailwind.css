@@ -4225,11 +4225,11 @@ video {
 }
 
 .bg-netflix {
-  background-image: url('/public/images/netflix_icon2.png');
+  background-image: url('/images/netflix_icon2.png');
 }
 
 .bg-snk {
-  background-image: url('/public/images/title_snk.png');
+  background-image: url('/images/title_snk.png');
 }
 
 .bg-linear {
@@ -4237,19 +4237,19 @@ video {
 }
 
 .bg-mini {
-  background-image: url('/public/images/bg-mini.jpg');
+  background-image: url('/images/bg-mini.jpg');
 }
 
 .bg-med {
-  background-image: url('/public/images/bg-med.jpg');
+  background-image: url('/images/bg-med.jpg');
 }
 
 .bg-large {
-  background-image: url('/public/images/bg.jpg');
+  background-image: url('/images/bg.jpg');
 }
 
 .bg-person {
-  background-image: url('/public/images/people1.jpg');
+  background-image: url('/images/people1.jpg');
 }
 
 .from-transparent {
@@ -34875,11 +34875,11 @@ video {
   }
 
   .sm\:bg-netflix {
-    background-image: url('/public/images/netflix_icon2.png');
+    background-image: url('/images/netflix_icon2.png');
   }
 
   .sm\:bg-snk {
-    background-image: url('/public/images/title_snk.png');
+    background-image: url('/images/title_snk.png');
   }
 
   .sm\:bg-linear {
@@ -34887,19 +34887,19 @@ video {
   }
 
   .sm\:bg-mini {
-    background-image: url('/public/images/bg-mini.jpg');
+    background-image: url('/images/bg-mini.jpg');
   }
 
   .sm\:bg-med {
-    background-image: url('/public/images/bg-med.jpg');
+    background-image: url('/images/bg-med.jpg');
   }
 
   .sm\:bg-large {
-    background-image: url('/public/images/bg.jpg');
+    background-image: url('/images/bg.jpg');
   }
 
   .sm\:bg-person {
-    background-image: url('/public/images/people1.jpg');
+    background-image: url('/images/people1.jpg');
   }
 
   .sm\:from-transparent {
@@ -65447,11 +65447,11 @@ video {
   }
 
   .md\:bg-netflix {
-    background-image: url('/public/images/netflix_icon2.png');
+    background-image: url('/images/netflix_icon2.png');
   }
 
   .md\:bg-snk {
-    background-image: url('/public/images/title_snk.png');
+    background-image: url('/images/title_snk.png');
   }
 
   .md\:bg-linear {
@@ -65459,19 +65459,19 @@ video {
   }
 
   .md\:bg-mini {
-    background-image: url('/public/images/bg-mini.jpg');
+    background-image: url('/images/bg-mini.jpg');
   }
 
   .md\:bg-med {
-    background-image: url('/public/images/bg-med.jpg');
+    background-image: url('/images/bg-med.jpg');
   }
 
   .md\:bg-large {
-    background-image: url('/public/images/bg.jpg');
+    background-image: url('/images/bg.jpg');
   }
 
   .md\:bg-person {
-    background-image: url('/public/images/people1.jpg');
+    background-image: url('/images/people1.jpg');
   }
 
   .md\:from-transparent {
@@ -96019,11 +96019,11 @@ video {
   }
 
   .lg\:bg-netflix {
-    background-image: url('/public/images/netflix_icon2.png');
+    background-image: url('/images/netflix_icon2.png');
   }
 
   .lg\:bg-snk {
-    background-image: url('/public/images/title_snk.png');
+    background-image: url('/images/title_snk.png');
   }
 
   .lg\:bg-linear {
@@ -96031,19 +96031,19 @@ video {
   }
 
   .lg\:bg-mini {
-    background-image: url('/public/images/bg-mini.jpg');
+    background-image: url('/images/bg-mini.jpg');
   }
 
   .lg\:bg-med {
-    background-image: url('/public/images/bg-med.jpg');
+    background-image: url('/images/bg-med.jpg');
   }
 
   .lg\:bg-large {
-    background-image: url('/public/images/bg.jpg');
+    background-image: url('/images/bg.jpg');
   }
 
   .lg\:bg-person {
-    background-image: url('/public/images/people1.jpg');
+    background-image: url('/images/people1.jpg');
   }
 
   .lg\:from-transparent {
@@ -126591,11 +126591,11 @@ video {
   }
 
   .xl\:bg-netflix {
-    background-image: url('/public/images/netflix_icon2.png');
+    background-image: url('/images/netflix_icon2.png');
   }
 
   .xl\:bg-snk {
-    background-image: url('/public/images/title_snk.png');
+    background-image: url('/images/title_snk.png');
   }
 
   .xl\:bg-linear {
@@ -126603,19 +126603,19 @@ video {
   }
 
   .xl\:bg-mini {
-    background-image: url('/public/images/bg-mini.jpg');
+    background-image: url('/images/bg-mini.jpg');
   }
 
   .xl\:bg-med {
-    background-image: url('/public/images/bg-med.jpg');
+    background-image: url('/images/bg-med.jpg');
   }
 
   .xl\:bg-large {
-    background-image: url('/public/images/bg.jpg');
+    background-image: url('/images/bg.jpg');
   }
 
   .xl\:bg-person {
-    background-image: url('/public/images/people1.jpg');
+    background-image: url('/images/people1.jpg');
   }
 
   .xl\:from-transparent {
@@ -157163,11 +157163,11 @@ video {
   }
 
   .\32xl\:bg-netflix {
-    background-image: url('/public/images/netflix_icon2.png');
+    background-image: url('/images/netflix_icon2.png');
   }
 
   .\32xl\:bg-snk {
-    background-image: url('/public/images/title_snk.png');
+    background-image: url('/images/title_snk.png');
   }
 
   .\32xl\:bg-linear {
@@ -157175,19 +157175,19 @@ video {
   }
 
   .\32xl\:bg-mini {
-    background-image: url('/public/images/bg-mini.jpg');
+    background-image: url('/images/bg-mini.jpg');
   }
 
   .\32xl\:bg-med {
-    background-image: url('/public/images/bg-med.jpg');
+    background-image: url('/images/bg-med.jpg');
   }
 
   .\32xl\:bg-large {
-    background-image: url('/public/images/bg.jpg');
+    background-image: url('/images/bg.jpg');
   }
 
   .\32xl\:bg-person {
-    background-image: url('/public/images/people1.jpg');
+    background-image: url('/images/people1.jpg');
   }
 
   .\32xl\:from-transparent {
